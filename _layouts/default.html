@@ -1,0 +1,33 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="/assets/uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="google-site-verification" content="oCwkT9QpgdsEntcroU_Ygt5ox08z7yHr8sM_0r8D624" />
+</head>
+<body>
+    {% include sidenav.html %} 
+
+    <div id="content">
+        {% include navbar.html %}
+
+        <div class="main-content uk-container uk-margin-bottom">
+            {{ content }}
+            {% include copyright.html %}
+        </div>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+</html>

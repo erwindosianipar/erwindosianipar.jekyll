@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1 class="uk-margin-bottom-remove">{{ page.title | escape }}</h1>
+<h2 class="uk-margin-remove-top uk-text-muted">{{ page.description | escape }}</h2>
+{{ page.date | date: "%B %d, %Y" }} · {% include minread.html %}
+
+<hr class="uk-divider-icon">
+
+{{ content }}
