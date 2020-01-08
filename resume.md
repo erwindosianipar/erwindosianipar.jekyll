@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 
-Page under construct :)
+Page under construction :)

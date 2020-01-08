@@ -4,4 +4,4 @@ title: Project
 permalink: /project/
 ---
 
-Page under construct :)
+Page under construction :)
