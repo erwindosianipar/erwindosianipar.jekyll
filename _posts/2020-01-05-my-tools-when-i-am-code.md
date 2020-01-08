@@ -1,7 +1,7 @@
 ---
 layout: post
-permalink: /blog/my-tools
-title: My Tools
+permalink: /blog/my-tools-when-i-am-code
+title: My Tools when I'am Code
 description: Beberapa tools yang saya gunakan
 ---
 

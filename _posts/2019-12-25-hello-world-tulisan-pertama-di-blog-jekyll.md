@@ -1,8 +1,8 @@
 ---
 layout: post
-permalink: /blog/halo-dunia
-title: Halo Dunia
-description: Ini tulisan pertama di blog ini
+permalink: /blog/hello-world-tulisan-pertama-di-blog-jekyll
+title: Hello World! Tulisan pertama di blog Jekyll
+description: Hello World! Berikut ini adalah artikel pertama yang saya publish di blog ini
 image: /assets/images/profile.jpg
 ---
 
