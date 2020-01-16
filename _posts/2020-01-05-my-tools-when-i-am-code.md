@@ -17,12 +17,13 @@ Berikut ini adalah beberapa alat/tools yang saya gunakan untuk keperluan coding/
 3. JavaScript
 4. Go (Golang)
 5. Ruby
+6. Kotlin
 
-#### Bahasa Pemrograman lainnya
+#### Bahasa lainnya
 1. HTML
 2. MySQL
 3. Markdown
-4. CSS (hmm it's not a programming language dude)
+4. CSS
 
 #### Framework
 1. CodeIgniter
