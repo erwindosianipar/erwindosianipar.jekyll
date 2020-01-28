@@ -11,6 +11,6 @@ Make with Jekyll static site generator.
 GitHub Pages is a system built into GitHub that allows you to build websites directly from a GitHub Repository.
 
 ## Link
-[https://erwindosianipar.github.io](https://erwindosianipar.github.io/)
+[https://erwindosianipar.me](https://erwindosianipar.me)
 
 ![Screenshot](/assets/images/erwindosianipar.github.io.png)
