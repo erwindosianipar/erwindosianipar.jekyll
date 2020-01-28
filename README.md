@@ -14,3 +14,18 @@ GitHub Pages is a system built into GitHub that allows you to build websites dir
 [https://erwindosianipar.me](https://erwindosianipar.me)
 
 ![Screenshot](/assets/images/erwindosianipar.github.io.png)
+
+## TLDR
+
+To Read this blog locally, you need to clone this repository
+
+```
+$ git clone --depth 1 https://github.com/erwindosianipar/erwindosianipar.github.io erwindosianipar-blog
+```
+
+Then run Jekyll server:
+
+```
+$ cd erwindosianipar-blog
+$ bundle exec jekyll serve
+```
