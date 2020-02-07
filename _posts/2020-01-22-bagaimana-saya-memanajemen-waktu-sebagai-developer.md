@@ -33,7 +33,7 @@ Tentu ada waktu santai, biasanya saya lakukan setelah makan malam, biasanya saya
 
 *Nah ini ada list yang saya buat di home screen Google Chrome, BTW saya pakai Momentum supaya home screen kelihatan ciamik.*
 
-![TODO list](/assets/images/post-2019-01-22.png)
+![TODO list](/media/post-2019-01-22.png)
 
 ### TLDR;
 
