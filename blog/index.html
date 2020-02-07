@@ -1,0 +1,44 @@
+---
+layout: page
+title: Blog
+---
+
+<ul class="uk-list uk-list-divider">
+{% for post in paginator.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+        <h3 class="uk-margin-medium-top uk-margin-remove-bottom">
+            # {{ currentdate }}
+        </h3>
+        {% assign date = currentdate %} 
+    {% endif %}
+    <li>
+        <div class="uk-text-muted">{{ post.date | date: "%B %d" }} · {% include blogminread.html content=post.content %}</div>
+        <h4 class="uk-margin-remove">
+            <a href="{{ post.url }}" class="uk-text-bold uk-text-emphasis">
+                {{ post.title }}
+            </a>
+        </h4>
+    </li>
+{% endfor %}
+</ul>
+
+<center>
+    <div class="pagination" style="font-weight: bold;">
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="previous">
+                « Prev
+            </a>
+        {% else %}
+        <span class="previous">« Prev</span>
+        {% endif %}
+        <span class="page_number ">
+            {{ paginator.page }} of {{ paginator.total_pages }}
+        </span>
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">Next »</a>
+        {% else %}
+            <span class="next ">Next »</span>
+        {% endif %}
+    </div>
+</center>
