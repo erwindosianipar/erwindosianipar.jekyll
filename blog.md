@@ -14,7 +14,7 @@ permalink: /blog/
 			{% assign date = currentdate %} 
 		{% endif %}
 		<li>
-			<div class="uk-text-muted">{{ post.date | date: "%B %d" }}</div>
+			<div class="uk-text-muted">{{ post.date | date: "%B %d" }} · {% include blogminread.html content=post.content %}</div>
 			<h4 class="uk-margin-remove">
 				<a href="{{ post.url }}" class="uk-text-bold uk-text-emphasis">
 					{{ post.title }}
