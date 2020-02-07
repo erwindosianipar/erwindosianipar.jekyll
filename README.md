@@ -13,7 +13,7 @@ GitHub Pages is a system built into GitHub that allows you to build websites dir
 ## Link
 [https://erwindosianipar.me](https://erwindosianipar.me)
 
-![Screenshot](/assets/images/erwindosianipar.github.io.png)
+![Screenshot](/media/erwindosianipar.github.io.png)
 
 ## TLDR
 
