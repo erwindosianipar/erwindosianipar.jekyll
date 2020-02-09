@@ -1,53 +1,59 @@
 ---
 layout: post
-permalink: /blog/my-tools-when-i-am-code
-title: My Tools when I'am Code
-description: Beberapa tools yang saya gunakan
+permalink: /blog/beberapa-tools-yang-saya-gunakan-untuk-keperluan-coding
+title: Beberapa Tools yang Saya Gunakan untuk Keperluan Coding
+description: Berikut ini adalah beberapa tools yang saya gunakan sehari-hari
 ---
 
-### This is My Tools When I'am Code :D
+Bagi seorang *programmer*, pastinya ia tidak terlepas dari *stack* teknologi yang digunakan untuk keperluan *ngoding*nya sehari-hari. *Tools* disini adalah "alat bantu" yang digunakan baik itu untuk mempercepat dan mempermudah *programmer* dalam menyelesaikan pekerjaanya.
 
-Bagi seorang yang menjadikan coding sebagai hobi, pastinya tidak terlepas dari teknologi-teknologi apa yang digunakan.
-
-Berikut ini adalah beberapa alat/tools yang saya gunakan untuk keperluan coding/programming
+Berikut ini adalah beberapa *tools* yang saya gunakan untuk keperluan coding/programming.
 
 ### Bahasa Pemrograman
+
 1. PHP
-2. Visual C#
+2. C# .NET
 3. JavaScript
-4. Go (Golang)
+4. Golang
 5. Ruby
 6. Kotlin
+7. Dart
+8. Flutter
 
-#### Bahasa lainnya
+#### lainnya
+
 1. HTML
-2. MySQL
-3. Markdown
-4. CSS
+2. CSS
+3. SQL
+4. Markdown
 
-#### Framework
+### Framework
+
 1. CodeIgniter
 2. Laravel
 3. Bootstrap
 4. Materialize
 5. Uikit
-6. Tailwind (Masih saya cicipi sedikit :D)
+6. Tailwind
 
 ### Code Editor
 
-Rasanya tidak cocok jika programmer tidak memiliki code editor andalannya saat ngoding, code editor ini ibarat senjata untuk seorang prajurit dalam medan perang jeng jeng (sedikit hyperbola :D)
+Rasanya tidak cocok jika seorang *programmer* tidak memiliki *code editor* atau IDE andalannya saat menulis baris kode, *code editor* ini dapat dikatakan senjata untuk seorang prajurit dalam medan perang hehehe.
 
-1. Visual Studi Code
-2. Visual Studio 2015/2019
-3. Sublime Text 3
-4. NotePad++
+1. Notepad (wkwkwk)
+2. Notepad++
+3. Sublime Text
+4. VS Code
+5. Visual Studio
+6. Intellij IDEA
+7. Android Studio
 
-#### Database
-1. SQL Server
-2. MySQL WorkBench
+### Database Management System
 
-### Just it for today
+1. phpMyAdmin
+2. SQL Server
+3. MySQL Workbench
 
-Kedepan pasti akan saya update lagi, karna kita programmer, jadi jangan pernah berhenti belajar :D
+### Akhir kata
 
-Hahhh saya lelah menulis, sekian :)
+Kedepannya pasti akan saya update lagi, teknologi pasti akan selalu berkembang dan akan muncul banyak *tools* yang diciptakan untuk memudahkan pekerjaan kita. Haaaaaahhh saya lelah menulis.
