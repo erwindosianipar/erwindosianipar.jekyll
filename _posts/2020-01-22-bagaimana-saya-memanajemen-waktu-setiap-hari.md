@@ -15,7 +15,7 @@ Untuk Manajemen waktu sendiri, sebaiknya buatlah *TODO list* agar kita mengingat
 
 Nah, ini pasti salah satu masalah umum. Menunda jam tidur atau memang gak bisa tidur di malam hari tentu saja akan mempengaruhi kualitas tidur dan kemungkinan terlambat bangun di keesokan paginya.
 
-Untuk orang yang terbiasa untuk cepat bangun di pagi hari biasanya mau tidur jam berapa juga kalau jam bangunnya sudah teratur pasti sama (misal jam 5 setiap paginya), but *"ala bisa karna biasa"* (It's not possible to try, let's try to changes mindset wkwkwk).
+Untuk orang yang terbiasa untuk cepat bangun di pagi hari biasanya mau tidur jam berapa juga kalau jam bangunnya sudah teratur pasti sama (misal jam 5 setiap paginya), ingat, "ala bisa karna biasa" (*It's not possible to try, we must changes our mindset wkwkwk*).
 
 ### How I manage my time
 
