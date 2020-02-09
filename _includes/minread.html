@@ -1,6 +1,2 @@
-{% assign words = content | strip_html |  number_of_words %}
-{% if words < 270 %}
-  1 min read
-  {% else %}
-  {{ words | divided_by:135 | plus: 1 }} min read
-{% endif %}
+{% assign words = include.content | strip_html | number_of_words %}
+{{ words | divided_by: 135 | plus: 1 }} min read
