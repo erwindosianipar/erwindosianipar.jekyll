@@ -15,7 +15,7 @@ GitHub Pages is a system built into GitHub that allows you to build websites dir
 
 ![Screenshot](/media/erwindosianipar.me.png)
 
-## TLDR
+## Build
 
 To Read this blog locally, you need to clone this repository
 
