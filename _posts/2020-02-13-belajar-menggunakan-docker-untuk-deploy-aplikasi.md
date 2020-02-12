@@ -3,6 +3,7 @@ layout: post
 permalink: /blog/belajar-menggunakan-docker-untuk-deploy-aplikasi
 title: Belajar Menggunakan Docker untuk Deploy Aplikasi
 description: Simple and flexible deployment tricks
+image: https://www.gofferje.net/images/blogs/ITSEC/Moby-logo.png
 ---
 
 Hari ini saya mempelajari satu tools yang sangat berguna dalam *development* aplikasi.
