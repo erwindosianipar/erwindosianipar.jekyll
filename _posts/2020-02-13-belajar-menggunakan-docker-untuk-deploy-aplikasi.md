@@ -11,7 +11,7 @@ Aplikasi ini bernama Docker, dimana docker ini sedikit memiliki kesamaan dengan 
 
 ### Apa itu Docker?
 
-Docker adalah project *open-source platform* sebagai produk atau layanan yang ditujukan kepada developer untuk membangun, mengemas, dan menjalankan aplikasi secara *virtualisasi* dalam satu tingkat sistem operasi di dalam sebuah *container*. [<sup>[1]</sup>](https://en.wikipedia.org/wiki/Docker_(software)
+Docker adalah project *open-source platform* sebagai produk atau layanan yang ditujukan kepada developer untuk membangun, mengemas, dan menjalankan aplikasi secara *virtualisasi* dalam satu tingkat sistem operasi di dalam sebuah *container*. [<sup>[1]</sup>](https://en.wikipedia.org/wiki/Docker_(software))
 
 Docker ini sendiri, berada di atas *infrastructure* dan satu sistem operasi berbasis Unix selanjutnya aplikasi-aplikasi yang akan di *deploy* berada di dalam *container*. Container-container ini adalah paket-paket aplikasi yang siap untuk dijalankan atau siap untuk *deploy*
 
