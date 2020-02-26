@@ -3,6 +3,7 @@ layout: post
 permalink: /blog/bagaimana-saya-memanajemen-waktu-setiap-hari
 title: Bagaimana Saya Memanajemen Waktu Setiap Hari
 description: Tulisan ini adalah pengalaman pribadi dalam menjalani rutinitas
+tags: life-story
 ---
 
 ### Kenapa kita membutuhkan time management?

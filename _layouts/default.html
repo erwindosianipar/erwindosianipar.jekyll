@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,11 @@ layout: compress
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="google-site-verification" content="9kBK_rp1o3t8RZDZMmRUv5nvPrWLIhYc_KehM1nzCg8" />
+
+    {% if site.tags != "" %}
+        {% include collecttags.html %}
+    {% endif %}
+
 </head>
 <body>
     {% include sidenav.html %} 
