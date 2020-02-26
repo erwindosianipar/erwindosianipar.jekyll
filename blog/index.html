@@ -10,11 +10,14 @@ title: Blog
         <h3 class="uk-margin-medium-top uk-margin-remove-bottom">
             # {{ currentdate }}
         </h3>
-        {% assign date = currentdate %} 
+    {% assign date = currentdate %}
     {% endif %}
     <li>
-        <div class="uk-text-muted">{{ post.date | date: "%B %d" }} · {% include minread.html content=post.content %}</div>
+        <div class="uk-text-muted">
+            {{ post.date | date: "%B %d" }} · {% include minread.html content=post.content %}
+        </div>
         <h4 class="uk-margin-remove">
+            <a href="/blog/tag/{{ post.tags }}"><code class="highligher-rouge uk-text-primary">#{{ post.tags }}</code></a>
             <a href="{{ post.url }}" class="uk-text-bold uk-text-emphasis">
                 {{ post.title }}
             </a>
@@ -23,8 +26,8 @@ title: Blog
 {% endfor %}
 </ul>
 
-<center>
-    <div class="pagination" style="font-weight: bold;">
+<div class="uk-margin-medium-top uk-margin-small-bottom uk-align-center uk-text-center">
+    <div class="pagination uk-text-bold">
         {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}" class="previous">
                 « Prev
@@ -32,13 +35,13 @@ title: Blog
         {% else %}
         <span class="previous">« Prev</span>
         {% endif %}
-        <span class="page_number ">
+        <span class="page_number">
             {{ paginator.page }} of {{ paginator.total_pages }}
         </span>
         {% if paginator.next_page %}
             <a href="{{ paginator.next_page_path }}" class="next">Next »</a>
         {% else %}
-            <span class="next ">Next »</span>
+            <span class="next">Next »</span>
         {% endif %}
     </div>
-</center>
+</div>

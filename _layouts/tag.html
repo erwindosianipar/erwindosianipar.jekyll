@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="post">
+    <h1 class="uk-margin-medium-bottom">Tag: #{{ page.tag }}</h1>
+    <ul class="uk-list uk-list-divider">
+        {% for post in site.tags[page.tag] %}
+        <li>
+            <h4 class="uk-margin-small-top uk-margin-small-bottom">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h4>
+            <div class="uk-text-muted uk-text-small">
+                <div class="uk-margin-small">{{ post.content | strip_html | truncatewords:35 }}</div>
+                <a href="{{ post.url }}" class="uk-text-small"><code class="highligher-rouge uk-text-primary uk-text-small">Read more</code></a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
