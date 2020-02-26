@@ -4,6 +4,7 @@ permalink: /blog/hello-world-ini-tulisan-pertama-di-blog-jekyll
 title: Hello World! Ini tulisan pertama di Blog Jekyll
 description: Berikut ini adalah artikel pertama yang saya publish di blog ini
 image: /assets/images/profile.jpg
+tags: life-story
 ---
 
 ### Hello World

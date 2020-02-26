@@ -3,6 +3,7 @@ layout: post
 permalink: /blog/beberapa-tools-yang-saya-gunakan-untuk-keperluan-coding
 title: Beberapa Tools yang Saya Gunakan untuk Keperluan Coding
 description: Berikut ini adalah beberapa tools yang saya gunakan sehari-hari
+tags: programming
 ---
 
 Bagi seorang *programmer*, pastinya ia tidak terlepas dari *stack* teknologi yang digunakan untuk keperluan *ngoding*nya sehari-hari. *Tools* disini adalah "alat bantu" yang digunakan baik itu untuk mempercepat dan mempermudah *programmer* dalam menyelesaikan pekerjaanya.
