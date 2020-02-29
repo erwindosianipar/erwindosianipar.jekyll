@@ -27,21 +27,21 @@ title: Blog
 </ul>
 
 <div class="uk-margin-medium-top uk-margin-small-bottom uk-align-center uk-text-center">
-    <div class="pagination uk-text-bold">
+    <div class="pagination">
         {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}" class="previous">
-                « Prev
+                <span uk-pagination-previous></span> Prev
             </a>
         {% else %}
-        <span class="previous">« Prev</span>
+        <span class="previous"><span uk-pagination-previous></span> Prev</span>
         {% endif %}
         <span class="page_number">
-            {{ paginator.page }} of {{ paginator.total_pages }}
+            · page: {{ paginator.page }} of {{ paginator.total_pages }} ·
         </span>
         {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">Next »</a>
+            <a href="{{ paginator.next_page_path }}" class="next">Next <span uk-pagination-next></span></a>
         {% else %}
-            <span class="next">Next »</span>
+            <span class="next">Next <span uk-pagination-next></span></span>
         {% endif %}
     </div>
 </div>
