@@ -17,7 +17,7 @@ Docker ini sendiri, berada di atas *infrastructure* dan satu sistem operasi berb
 
 ![Konsep Docker container](/media/post-2020-02-13-docker-container.png)
 
-Gmabar diatas menjelaskan bahwa aplikasi-aplikasi kita yang siap untuk di *deploy* berada di dalam sebuah container, dimana container berada di atas Docker.
+Gambar diatas menjelaskan bahwa aplikasi-aplikasi kita yang siap untuk di *deploy* berada di dalam sebuah container, dimana container berada di atas Docker.
 
 ### Virtual Machine VS. Docker
 
