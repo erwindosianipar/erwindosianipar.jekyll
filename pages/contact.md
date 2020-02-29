@@ -6,7 +6,7 @@ permalink: /contact/
 
 Hi, if you want to contact me, or just looking for someone to listen or talk about something, you can find me at:
 
-<table class="uk-table uk-table-small uk-table-divider">
+<table class="uk-table uk-table-small uk-table-striped">
     <thead>
         <tr>
             <th><b>Platform</b></th>

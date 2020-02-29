@@ -20,12 +20,12 @@ layout: compress
 
 </head>
 <body>
-    {% include sidenav.html %} 
+    {% include sidenav.html %}
 
     <div id="content">
         {% include navbar.html %}
 
-        <div class="main-content uk-container uk-margin-bottom">
+        <div class="main-content uk-container uk-margin-bottom page-wrapper">
             {{ content }}
             {% include copyright.html %}
         </div>
@@ -33,6 +33,5 @@ layout: compress
     </div>
 
     {% include footer.html %}
-
 </body>
 </html>
