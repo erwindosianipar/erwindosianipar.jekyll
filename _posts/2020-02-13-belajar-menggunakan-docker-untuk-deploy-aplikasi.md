@@ -15,7 +15,7 @@ Docker adalah project *open-source platform* sebagai produk atau layanan yang di
 
 Docker ini sendiri, berada di atas *infrastructure* dan satu sistem operasi berbasis Unix selanjutnya aplikasi-aplikasi yang akan di *deploy* berada di dalam *container*. Container-container ini adalah paket-paket aplikasi yang siap untuk dijalankan atau siap untuk *deploy*
 
-![Konsep Docker container](/media/post-2020-02-13-docker-container.png)
+![Konsep Docker container](/media/2020-02-13/1-docker-container.png)
 
 Gambar diatas menjelaskan bahwa aplikasi-aplikasi kita yang siap untuk di *deploy* berada di dalam sebuah container, dimana container berada di atas Docker.
 
