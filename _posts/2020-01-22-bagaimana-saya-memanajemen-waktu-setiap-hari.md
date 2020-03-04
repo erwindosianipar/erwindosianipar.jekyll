@@ -32,7 +32,7 @@ Waktu santai, biasanya saya lakukan setelah makan malam, biasanya saya ngopi gan
 
 Nah ini ada *TODO list* yang saya buat di home screen Chrome, oh iya saya pakai *Momentum Chrome Extension* supaya home screen kelihatan lebih keren.
 
-![TODO List](/media/post-2019-01-22.png)
+![TODO List](/media/2019-01-22/1-todo-list.png)
 
 ### TL;DR
 
