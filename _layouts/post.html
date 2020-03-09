@@ -2,11 +2,16 @@
 layout: default
 ---
 
-<h1 class="uk-margin-bottom-remove">{{ page.title | escape }}</h1>
-<h2 class="uk-margin-remove-top uk-text-muted">{{ page.description | escape }}</h2>
+<h1 class="uk-margin-small-bottom uk-text-bold">{{ page.title | escape }}</h1>
+<h2 class="uk-margin-remove-top uk-text-muted fs-20">{{ page.description | escape }}</h2>
 {{ page.date | date: "%B %d, %Y" }} · {% include minread.html content=content %} · <a href="/blog/tag/{{ page.tags }}"><code class="highligher-rouge uk-text-primary">📒 #{{ page.tags }}</code></a> · <a href="https://github.com/erwindosianipar/erwindosianipar.github.io/blob/master/{{page.path}}"><code class="highligher-rouge uk-text-primary">✍️ edit this post</code></a>
 
 <hr class="uk-divider-icon">
+
+{% if page.image %}
+<img src="{{ page.image }}">
+<div class="uk-text-center uk-text-small uk-text-muted uk-margin-small">{{ page.image-credit }}</div>
+{% endif %}
 
 {{ content }}
 
