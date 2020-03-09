@@ -3,6 +3,8 @@ layout: post
 permalink: /blog/resolusi-tahun-2020-beralih-menggunakan-sistem-operasi
 title: Resolusi Tahun 2020 Beralih Menggunakan Sistem Operasi
 description: Resolusi kecil untuk mulai menjalani tahun yang baru
+image: https://miro.medium.com/max/11910/0*5aPYRAYDAP3hVo4d
+image-credit: Photo by Marc-Olivier Jodoin on Unsplash
 tags: life-story
 ---
 

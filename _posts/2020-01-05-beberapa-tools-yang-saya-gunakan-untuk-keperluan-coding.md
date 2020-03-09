@@ -3,6 +3,8 @@ layout: post
 permalink: /blog/beberapa-tools-yang-saya-gunakan-untuk-keperluan-coding
 title: Beberapa Tools yang Saya Gunakan untuk Keperluan Coding
 description: Berikut ini adalah beberapa tools yang saya gunakan sehari-hari
+image: https://images.unsplash.com/photo-1563898058742-32d7e00ff34a
+image-credit: Photo by Anthony Choren on Unsplash
 tags: programming
 ---
 
