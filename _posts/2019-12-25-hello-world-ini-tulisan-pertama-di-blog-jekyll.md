@@ -3,7 +3,8 @@ layout: post
 permalink: /blog/hello-world-ini-tulisan-pertama-di-blog-jekyll
 title: Hello World! Ini tulisan pertama di Blog Jekyll
 description: Berikut ini adalah artikel pertama yang saya publish di blog ini
-image: /assets/images/profile.jpg
+image: https://images.unsplash.com/photo-1457301353672-324d6d14f471
+image-credit: Photo by Annie Spratt on Unsplash
 tags: life-story
 ---
 

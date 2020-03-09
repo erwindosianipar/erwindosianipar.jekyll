@@ -3,6 +3,8 @@ layout: post
 permalink: /blog/membuat-game-tictactoe-ios-apps-menggunakan-swift
 title: Membuat Game Tictactoe iOS Apps Menggunakan Swift
 description: Tutorial sederhana membuat aplikasi game pada perangkat iOS
+image: https://miro.medium.com/max/11520/0*Lhgnm_ZYnh-Rdawy
+image-credit: Photo by 42 North on Unsplash
 tags: programming
 ---
 

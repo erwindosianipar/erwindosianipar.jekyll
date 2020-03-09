@@ -3,6 +3,8 @@ layout: post
 permalink: /blog/bagaimana-saya-memanajemen-waktu-setiap-hari
 title: Bagaimana Saya Memanajemen Waktu Setiap Hari
 description: Tulisan ini adalah pengalaman pribadi dalam menjalani rutinitas
+image: https://miro.medium.com/max/10084/0*1x2SFFqjtkW9IzoF
+image-credit: Photo by Mikhail Vasilyev on Unsplash
 tags: life-story
 ---
 

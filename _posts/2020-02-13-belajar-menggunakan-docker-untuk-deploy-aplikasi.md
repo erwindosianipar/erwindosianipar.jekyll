@@ -3,6 +3,8 @@ layout: post
 permalink: /blog/belajar-menggunakan-docker-untuk-deploy-aplikasi
 title: Belajar Menggunakan Docker untuk Deploy Aplikasi
 description: Simple and flexible deployment tricks
+image: https://miro.medium.com/max/10944/0*7Xk7KsmckMhwD_jV
+image-credit: Photo by Bernd Dittrich on Unsplash
 tags: programming
 ---
 

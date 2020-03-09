@@ -3,6 +3,8 @@ layout: post
 permalink: /blog/membuat-pagination-pada-website-jekyll
 title: Membuat Pagination pada website Jekyll
 description: Mengaktifkan plugin pagination pada website berbasis Jekyll
+image: https://miro.medium.com/max/12020/0*MliSazNrG955nKNT
+image-credit: Photo by Clarissa Watson on Unsplash
 tags: programming
 ---
 
