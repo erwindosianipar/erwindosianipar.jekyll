@@ -23,8 +23,17 @@ email: erwindosianipar@gmail.com
 description: People who are always on the move, but never settle for less.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://erwindosianipar.me" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_username: erwindoosianipar
 twitter_username: erwindosianipar
+instagram_username: erwindosianipar
 github_username: erwindosianipar
+gitlab_username: erwindosianipar
+linkedin_username: erwindosianipar
+telegram_username: erwindosianipar
+medium_username: erwindosianipar
+
+# Personal Information
+name: Erwindo Sianipar
 
 paginate: 5
 paginate_path: "/blog/page/:num/"
