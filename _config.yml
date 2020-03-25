@@ -35,7 +35,7 @@ medium_username: erwindosianipar
 # Personal Information
 name: Erwindo Sianipar
 
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page/:num/"
 
 # Build settings
