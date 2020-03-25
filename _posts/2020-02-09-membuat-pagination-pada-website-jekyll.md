@@ -14,13 +14,13 @@ Ini adalah cara sederhana untuk mengaktifkan plugin pagination pada website berb
 
 Melalui terminal, silahkan masuk ke dalam folder *project* Jekyll anda berada, berikut contoh yang saya gunakan dalam *project* website Jekyll saya.
 
-```
+``` console
 $ cd ~/Projects/jekyll/blog
 ```
 
 Setelah masuk ke dalam folder tempat project website Jekyll, selanjutnya buka dengan *code editor* andalan, disini saya menggunakan VS Code.
 
-```
+``` console
 $ code .
 ```
 
@@ -28,7 +28,7 @@ $ code .
 
 Pada file `Gemfile` tambahkan *plugin* `jekyll-paginate` pada *group* Jekyll Plugins.
 
-```
+``` ruby
 group :jekyll_plugins do
 	gem "jekyll-feed", "~> 0.12"
 	gem 'jekyll-seo-tag'
@@ -41,7 +41,7 @@ end
 
 Selanjutnya lakukan peng*updatean* *dependencies* untuk mengunduh semua *plugin* Jekyll terbaru.
 
-```
+``` console
 $ bundle update
 ```
 *Bundle* akan selesai ter*update* dan memunculkan pesan berhasil `Bundle updated!`
@@ -52,7 +52,7 @@ Selanjutnya kita akan membuat *configurasi*. *Configurasi* ini adalah inti pemas
 
 Tambahkan baris kode berikut untuk *configurasi*nya
 
-```
+``` yaml
 paginate: 5
 paginate_path: "/blog/page/:num/"
 ```
@@ -62,7 +62,7 @@ Pengertian `paginate: 5`  adalah total postingan blog yang akan ditampilkan dala
 
 Selanjutnya tambahkan *plugins* *jekyll-paginate* pada *build settings configuration*.
 
-```
+``` yaml
 # Build settings
 plugins:
 	- jekyll-feed
@@ -76,7 +76,7 @@ plugins:
 Dalam file `index.html` blog anda, tambahkan kode berikut untuk memunculkan *link pagination*.
 
 {% raw %}
-```
+``` html
 <div  class="pagination">
 {% if paginator.previous_page %}
 	<a  href="{{ paginator.previous_page_path }}" class="previous">
@@ -87,7 +87,7 @@ Dalam file `index.html` blog anda, tambahkan kode berikut untuk memunculkan *lin
 		« Prev
 	</span>
 {% endif %}
-	<span  class="page_number ">
+	<span  class="page_number">
 		{{ paginator.page }} of {{ paginator.total_pages }}
 	</span>
 {% if paginator.next_page %}
@@ -105,6 +105,6 @@ Dalam file `index.html` blog anda, tambahkan kode berikut untuk memunculkan *lin
 
 Jalan website anda.
 
-```
+``` console
 $ bundle exec jekyll serve
 ```
