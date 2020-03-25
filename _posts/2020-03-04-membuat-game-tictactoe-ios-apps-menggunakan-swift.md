@@ -58,7 +58,7 @@ Selanjutnya kita masuk ke dalam tahap *coding* brooom brooom! 😎
 
 Diatas `IBOutlet` kita akan membuat *inisialisasi* *variabel* yang akan kita perlukan untuk game.
 
-```
+``` swift
 var gameIsActive = true
 let point = [#imageLiteral(resourceName: "x"), #imageLiteral(resourceName: "o")]
 var player = "x"
@@ -92,7 +92,7 @@ let winPosition = [
 
 Dalam *life cycle* `viewDidLoad` kita harus menambahkan setiap *button*nya kedalam *array of UIButton* yang sudah kita deklarasikan sebelumnya.
 
-```
+``` swift
 buttons.append(block1)
 buttons.append(block2)
 buttons.append(block3)
@@ -106,7 +106,7 @@ buttons.append(block9)
 
 Buat satu `IBOutlet` untuk label informasi *player* dan tambahkan baris kode berikut dalam *life cycle* `viewDidLoad` untuk mengeset sesi *player* yang akan pertama kali bermain.
 
-```
+``` swift
 playerName.text = "Player turn: " + player
 ```
 
@@ -114,7 +114,7 @@ playerName.text = "Player turn: " + player
 
 Dalam *function* `clickHandle` tambahkan baris kode berikut:
 
-```
+``` swift
 if buttons[sender.tag-1].isEnabled == true {
     let turn = player == "x" ? point[0] : point[1]
     buttons[sender.tag-1].setImage(turn, for: .normal)
@@ -129,7 +129,7 @@ if buttons[sender.tag-1].isEnabled == true {
 *Function* `setNextPlayer` berisi kode yang akan mengecek siapa *player* yang sedang aktif dan siapa player yang akan bermain selanjutnya.
 
 
-```
+``` swift
 if player == "x" {
     player = "o"
     playerName.text = "Player turn: " + player
@@ -143,7 +143,7 @@ if player == "x" {
 
 *Function* `cekWinner` berisi kode untuk memerika apakah didalam susunan *board* sudah ada *player* yang menang.
 
-```
+``` swift
 for position in winPosition {
     if board[position[0]] != "" && board[position[0]] == board[position[1]] && board[position[1]] == board[position[2]] {
         if board[position[0]] == "x" {
@@ -161,7 +161,7 @@ for position in winPosition {
 
 Pada baris kode diatas terdapat pemanggilan *function* `disabledAllButton` yang berfungsi untuk men*disable* tombol, agar user tidak dapat mengklik game *board* jika game sudah berakhir, untuk itu buat satu *function* `disabledAllButton` dengan kode seperti berikut.
 
-```
+``` swift
 func disabledAllButton() {
     for i in 0...8 {
         buttons[i].isEnabled = false
@@ -173,7 +173,7 @@ func disabledAllButton() {
 
 Dan tambahkan juga baris kode ini kedalam *function* `cekWinner` untuk memeriksa apakah permainan berakhir seri.
 
-```
+``` swift
 var totalPoint = ""
 for i in 0...8 {
     totalPoint += board[i]
@@ -189,7 +189,7 @@ if totalPoint.count == 9 {
 
 *Function* terakhir yang kita perlukan adalah untuk memulai ulang game. *Function* ini akan dipanggil jika *button reset* diklik.
 
-```
+``` swift
 for i in 0...8 {
     buttons[i].setImage(nil, for: UIControl.State())
     buttons[i].isEnabled = true
