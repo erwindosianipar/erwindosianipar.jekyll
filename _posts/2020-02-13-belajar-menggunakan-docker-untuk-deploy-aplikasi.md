@@ -45,14 +45,14 @@ Untuk menggunakan Docker, maka kita memerlukan Docker yang sudah terinstal di ko
 
 Pertama buat sebuah folder untuk kita menempatkan project
 
-```
+``` console
 $ mkdir BELAJAR-DOCKER
 $ cd BELAJAR-DOCKER
 ```
 
 Selanjutnya kita perlu membuat satu file `Dockerfile` yang berguna untuk *initialisasi* Docker
 
-```
+``` console
 $ touch Dockerfile
 ```
 
