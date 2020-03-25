@@ -14,48 +14,54 @@ Berikut ini adalah beberapa *tools* yang saya gunakan untuk keperluan coding/pro
 
 ### Bahasa Pemrograman
 
-1. PHP
-2. C# .NET
-3. JavaScript
-4. Golang
-5. Ruby
-6. Kotlin
-7. Dart
-8. Flutter
+* Swift
+* Golang
+* Kotlin
+* Dart
+* Flutter
+* JavaScript
+* Vue JS
+* C# .NET
+* PHP
 
-#### lainnya
+#### Lainnya
 
-1. HTML
-2. CSS
-3. SQL
-4. Markdown
+* HTML & CSS
+* Git & CLI
 
 ### Framework
 
-1. CodeIgniter
-2. Laravel
-3. Bootstrap
-4. Materialize
-5. Uikit
-6. Tailwind
+* CodeIgniter
+* Laravel
+* Bootstrap
+* Materialize CSS
+* Uikit CSS
+* Tailwind CSS
+
+### DevOps
+
+* Docker
+* Jenkins
+* Travis CI
 
 ### Code Editor
 
 Rasanya tidak cocok jika seorang *programmer* tidak memiliki *code editor* atau IDE andalannya saat menulis baris kode, *code editor* ini dapat dikatakan senjata untuk seorang prajurit dalam medan perang hehehe.
 
-1. Notepad (wkwkwk)
-2. Notepad++
-3. Sublime Text
-4. VS Code
-5. Visual Studio
-6. Intellij IDEA
-7. Android Studio
+* Xcode
+* Intelij IDEA
+* Visual Studio Code
+* Android Studio
+* Microsoft Visual Studio
+* Sublime Text
+* Notepad++
 
 ### Database Management System
 
-1. phpMyAdmin
-2. SQL Server
-3. MySQL Workbench
+* PG Admin
+* phpMyAdmin
+* SQL Server
+* MySQL Workbench
 
 ### Akhir kata
 
