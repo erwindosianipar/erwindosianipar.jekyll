@@ -18,4 +18,4 @@ Alhasil saya memutuskan untuk menggunakan Ubuntu 19 dan Elementary OS. Walaupun 
 
 Karna saya termasuk mahluk yang visual, jadi saya putuskan untuk menggunakan Elementary OS pada laptop yang sehari-hari saya gunakan. Walaupun semua distro mudah untuk di*customasi*, Elementary OS ini sendiri cukup menarik tanpa ada tambahan apapun. Disamping Elementary OS cukup indah dan nyaman dimata, Elementary OS ini juga sangat ringan dibanding distro yang lainnya (sejauh yang saya rasakan hehehe).
 
-Cukup sekian saya rasa, dan mungkin suatu saat saya akan pindah ke Mac Os hahahah AMIN!
+Cukup sekian saya rasa, dan saat ini saya telah menjadi macOS X user 🤪
