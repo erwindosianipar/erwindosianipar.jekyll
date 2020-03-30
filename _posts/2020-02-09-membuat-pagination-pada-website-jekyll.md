@@ -65,10 +65,10 @@ Selanjutnya tambahkan *plugins* *jekyll-paginate* pada *build settings configura
 ``` yaml
 # Build settings
 plugins:
-	- jekyll-feed
-	- jekyll-seo-tag
-	- jekyll-sitemap
-	- jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 ```
 
 ### Menambahkan di halaman website
