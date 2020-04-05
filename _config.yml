@@ -45,6 +45,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-toc
+
+toc:
+  - list_class: "section-toc"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

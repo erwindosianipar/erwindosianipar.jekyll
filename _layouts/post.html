@@ -19,4 +19,15 @@ layout: default
 
 {% include archive.html %}
 
+<div class="btn-toc uk-background-custom" uk-toggle="target: #modal-toc"><i data-feather="info"></i></div>
+<div id="modal-toc" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <p>Table of Content</p>
+        <hr>
+        <div class="toc">
+            {% toc %}
+        </div>
+    </div>
+</div>
+
 {% include anchor.html %}
