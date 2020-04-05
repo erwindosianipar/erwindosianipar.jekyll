@@ -6,6 +6,7 @@ description: Simple and flexible deployment tricks
 image: https://miro.medium.com/max/10944/0*7Xk7KsmckMhwD_jV
 image-credit: Photo by Bernd Dittrich on Unsplash
 tags: programming
+toc: true
 ---
 
 Hari ini saya mempelajari satu tools yang sangat berguna dalam *development* aplikasi.

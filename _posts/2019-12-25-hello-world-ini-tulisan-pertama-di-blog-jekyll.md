@@ -6,6 +6,7 @@ description: Berikut ini adalah artikel pertama yang saya publish di blog ini
 image: https://images.unsplash.com/photo-1457301353672-324d6d14f471
 image-credit: Photo by Annie Spratt on Unsplash
 tags: life-story
+toc: true
 ---
 
 ### Hello World

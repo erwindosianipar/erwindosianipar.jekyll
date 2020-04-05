@@ -6,6 +6,7 @@ description: Berikut ini adalah beberapa tools yang saya gunakan sehari-hari
 image: https://images.unsplash.com/photo-1563898058742-32d7e00ff34a
 image-credit: Photo by Anthony Choren on Unsplash
 tags: programming
+toc: true
 ---
 
 Bagi seorang *programmer*, pastinya ia tidak terlepas dari *stack* teknologi yang digunakan untuk keperluan *ngoding*nya sehari-hari. *Tools* disini adalah "alat bantu" yang digunakan baik itu untuk mempercepat dan mempermudah *programmer* dalam menyelesaikan pekerjaanya.
