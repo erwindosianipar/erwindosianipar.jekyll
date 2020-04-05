@@ -6,6 +6,7 @@ description: Mengaktifkan plugin pagination pada website berbasis Jekyll
 image: https://miro.medium.com/max/12020/0*MliSazNrG955nKNT
 image-credit: Photo by Clarissa Watson on Unsplash
 tags: programming
+toc: true
 ---
 
 Ini adalah cara sederhana untuk mengaktifkan plugin pagination pada website berbasis Jekyll. Ini telah saya terapkan terhadap website ini. Caranya cukup mudah karna Jekyll telah menyediakan plugin pagination yang dapat langsung kita gunakan.
