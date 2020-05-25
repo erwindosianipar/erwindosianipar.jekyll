@@ -8,10 +8,12 @@ layout: default
 
 <hr class="uk-divider-icon">
 
+{% comment %}
 {% if page.image %}
 <img src="{{ page.image }}" data-action="zoom">
 <div class="uk-text-center uk-text-small uk-text-muted uk-margin-small">{{ page.image-credit }}</div>
 {% endif %}
+{% endcomment %}
 
 <div class="blog-post">
     {{ content | inject_anchors }}
