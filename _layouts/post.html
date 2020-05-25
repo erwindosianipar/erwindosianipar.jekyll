@@ -4,7 +4,7 @@ layout: default
 
 <h1 class="uk-margin-small-bottom uk-text-bold">{{ page.title | escape }}</h1>
 <h2 class="uk-margin-remove-top uk-text-muted fs-20">{{ page.description | escape }}</h2>
-{{ page.date | date: "%B %d, %Y" }} · {% include minread.html content=content %} · <a href="/blog/tag/{{ page.tags }}"><code class="highligher-rouge uk-text-primary">📒 #{{ page.tags }}</code></a> · <a href="https://github.com/erwindosianipar/erwindosianipar.github.io/blob/master/{{page.path}}"><code class="highligher-rouge uk-text-primary">✍️ edit this post</code></a>
+{{ page.date | date: "%B %d, %Y" }} · {% include minread.html content=content %} · <a href="/blog/tag/{{ page.tags }}"><code class="highligher-rouge uk-text-primary">📒 #{{ page.tags }}</code></a>
 
 <hr class="uk-divider-icon">
 
@@ -16,20 +16,9 @@ layout: default
 {% endcomment %}
 
 <div class="blog-post">
-    {{ content | inject_anchors }}
+    {{ content }}
 </div>
 
 {% include archive.html %}
-
-<div class="btn-toc uk-background-custom" uk-toggle="target: #modal-toc"><i data-feather="info"></i></div>
-<div id="modal-toc" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-        <p>Table of Content</p>
-        <hr>
-        <div class="toc">
-            {{ content | toc_only }}
-        </div>
-    </div>
-</div>
 
 {% include anchor.html %}

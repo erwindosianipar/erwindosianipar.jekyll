@@ -9,7 +9,7 @@ Hi, my name is {{ site.name }} a Software Engineer, Blogger, Coding enthusiast, 
 
 I'am start write and love code since 2015 and now I'am working with all programming language, I'am from  Pematangsiantar, a small town in North Sumatera, Indonesia.
 
-Since 2019 I'am moved to the capital city of Indonesia: Jakarta, and join with PT. Enigma Cipta Humanika (EnigmaCamp) as bootcamp trainee for three month.
+Since 2019 I'am moved to the capital city of Indonesia: Jakarta, and join with PT. Enigma Cipta Humanika as bootcamp trainee for three month.
 
 ## Just now
 
