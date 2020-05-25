@@ -11,7 +11,7 @@ Hi there, this is my resume pages, i had write my stories and experience in this
     <span class="uk-margin-left" data-feather="download">download</span>
 </a>
 <br>
-If you want to use this resume design, you can [click this link](https://github.com/erwindosianipar/erwindosianipar.github.io/tree/master/resume), it will direct you to my Github repo or [click this](/resume/resume) to see web version.
+If you want to use this resume design, you can [click this](/resume/resume), it will direct you to see the web version.
 
 <object width="100%" height="100%" type="application/pdf" data="/resume/Erwindo Sianipar | Resume Print.pdf">
     <div class="uk-alert-danger" uk-alert="">
