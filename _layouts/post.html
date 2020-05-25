@@ -8,13 +8,15 @@ layout: default
 
 <hr class="uk-divider-icon">
 
+{% comment %}
 {% if page.image %}
 <img src="{{ page.image }}" data-action="zoom">
 <div class="uk-text-center uk-text-small uk-text-muted uk-margin-small">{{ page.image-credit }}</div>
 {% endif %}
+{% endcomment %}
 
 <div class="blog-post">
-    {{ content }}
+    {{ content | inject_anchors }}
 </div>
 
 {% include archive.html %}
@@ -25,8 +27,7 @@ layout: default
         <p>Table of Content</p>
         <hr>
         <div class="toc">
-            Oops, something went wrong
-            {% comment %} {{ content | toc_only }} {% endcomment %}
+            {{ content | toc_only }}
         </div>
     </div>
 </div>
