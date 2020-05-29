@@ -17,4 +17,9 @@
                 $("#meninggal").html(number(result.deaths.value));
             }});
     });
+
+    var images = document.getElementsByTagName("img");
+    for(i = 0; i < images.length; i++) {
+        images[i].setAttribute("data-action", "zoom")
+    }
 </script>
