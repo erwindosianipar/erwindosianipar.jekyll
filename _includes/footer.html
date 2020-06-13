@@ -6,16 +6,17 @@
 <script src="/assets/js/zoom.js"></script>
 <script>
     function number(x) {
-        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
     }
 
-    $(document).ready(function(){
+    $(document).ready(function() {
         $.ajax({
-            url: "https://covid19.mathdro.id/api/countries/indonesia", success: function(result){
+            url: "https://covid19.mathdro.id/api/countries/indonesia", success: function(result) {
                 $("#positif").html(number(result.confirmed.value));
                 $("#sembuh").html(number(result.recovered.value));
                 $("#meninggal").html(number(result.deaths.value));
-            }});
+            }
+        })
     });
 
     var images = document.getElementsByTagName("img");
