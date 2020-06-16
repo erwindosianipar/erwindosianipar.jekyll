@@ -8,11 +8,11 @@ layout: default
         {% for post in site.tags[page.tag] %}
         <li>
             <h4 class="uk-margin-small-top uk-margin-small-bottom">
-                <a href="{{ post.url }}" class="uk-button uk-button-text uk-text-left uk-text-primary">{{ post.title }}</a>
+                <a class="uk-text-emphasis uk-text-bold" href="{{ post.url }}" >{{ post.title }}</a>
             </h4>
             <div class="uk-text-muted uk-text-small">
                 <div class="uk-margin-small">{{ post.content | strip_html | truncatewords:35 }}</div>
-                <a class="uk-button uk-button-text uk-text-primary" href="{{ post.url }}">Read more</a>
+                <a class="uk-text-emphasis uk-text-bold" href="{{ post.url }}">Learn more <span uk-icon="chevron-right"></span></a>
             </div>
         </li>
         {% endfor %}

@@ -28,10 +28,17 @@ layout: compress
     <div id="content">
         <div class="uk-alert-primary uk-margin-remove-bottom uk-text-emphasis" uk-alert>
             <a class="uk-alert-close" uk-close></a>
-            <span class="uk-text-bold">Kasus Coronavirus di Indonesia</span><br/>
-            Positif: <span class="uk-text-bold" id="positif"></span> —
-            Sembuh: <span class="uk-text-bold" id="sembuh"></span> —
-            Meninggal: <span class="uk-text-bold" id="meninggal"></span>
+            <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                <div>
+                    <span uk-icon="warning"></span>
+                </div>
+                <div>
+                    <div class="uk-text-bold">Coronavirus cases in indonesia</div>
+                    Confirmed: <span class="uk-text-bold" id="positif"></span> ·
+                    Recovered: <span class="uk-text-bold" id="sembuh"></span> ·
+                    Deaths: <span class="uk-text-bold" id="meninggal"></span>        
+                </div>
+            </div>
         </div>
 
         {% include navbar.html %}
