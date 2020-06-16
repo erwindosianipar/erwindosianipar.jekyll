@@ -3,7 +3,7 @@ Hello World! This is me on the Internet
 
 ## This is my personal site
 
-This script is i'am using to generate a web static site generator for my personal website.
+This script is I'm using to generate a web static site generator for my personal website.
 Make with Jekyll static site generator.
 
 ## What is GitHub Pages?
