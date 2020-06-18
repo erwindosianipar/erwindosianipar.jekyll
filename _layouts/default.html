@@ -28,15 +28,23 @@ layout: compress
     <div id="content">
         <div class="uk-alert-primary uk-margin-remove-bottom uk-text-emphasis" uk-alert>
             <a class="uk-alert-close" uk-close></a>
-            <div class="uk-grid-small uk-child-width-auto" uk-grid>
-                <div>
-                    <span uk-icon="warning"></span>
+            <div class="uk-card-header uk-padding-remove">
+                <div class="uk-grid-small" uk-grid>
+                    <div class="uk-width-auto">
+                        <span uk-icon="warning"></span>
+                    </div>
+                    <div class="uk-width-auto">
+                        <div class="uk-text-bold">Coronavirus cases in indonesia</div>
+                    </div>
                 </div>
-                <div>
-                    <div class="uk-text-bold">Coronavirus cases in indonesia</div>
-                    Confirmed: <span class="uk-text-bold" id="positif"></span> ·
-                    Recovered: <span class="uk-text-bold" id="sembuh"></span> ·
-                    Deaths: <span class="uk-text-bold" id="meninggal"></span>        
+            </div>
+            <div class="uk-card-header uk-padding-remove">
+                <div class="uk-grid-small" uk-grid>
+                    <div class="uk-width-auto uk-margin-small-top">
+                        Confirmed: <span class="uk-text-bold" id="positif"></span>
+                        Recovered: <span class="uk-text-bold" id="sembuh"></span>
+                        Deaths: <span class="uk-text-bold" id="meninggal"></span>
+                    </div>
                 </div>
             </div>
         </div>
