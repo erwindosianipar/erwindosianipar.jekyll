@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-Hi there, this is my resume pages, i had write my stories and experience in this resume file. If you need my resume you can download it by press the button download resume.
+Hi there, this is my resume pages, I had put as far as my career and experience in this resume file. If you need my resume you can download it by press the button download resume.
 
 <a href="/resume/Erwindo Sianipar | Resume Print.pdf" class="uk-button uk-margin-bottom uk-button-primary">
     Download Resume
