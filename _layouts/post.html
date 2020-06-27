@@ -26,6 +26,10 @@ layout: default
 
 {% include anchor.html %}
 
+{% if site.disqus.shortname %}
+  {% include disqus.html %}
+{% endif %}
+
 <script>
     var bar_bg = document.getElementById("scrollbar-bg");
     var body = document.body;
