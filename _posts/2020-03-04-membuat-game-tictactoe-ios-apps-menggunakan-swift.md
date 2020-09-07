@@ -121,41 +121,30 @@ if buttons[sender.tag-1].isEnabled == true {
     buttons[sender.tag-1].setImage(turn, for: .normal)
     buttons[sender.tag-1].isEnabled = false
     board[sender.tag-1] = player
-    setNextPlayer()
-    cekWinner()
+    changePlayer()
+    checkWinner()
 }
 ```
 ##### Set Next Player
 
-*Function* `setNextPlayer` berisi kode yang akan mengecek siapa *player* yang sedang aktif dan siapa player yang akan bermain selanjutnya.
+*Function* `changePlayer` berisi kode yang akan mengecek siapa *player* yang sedang aktif dan siapa player yang akan bermain selanjutnya.
 
 
 ``` swift
-if player == "x" {
-    player = "o"
-    playerName.text = "Player turn: " + player
-} else {
-    player = "x"
-    playerName.text = "Player turn: " + player
-}
+player = player == "x" ? "o" : "x"
+playerName.text = "Player turn: " + player
 ```
 
 ##### Check The Winner
 
-*Function* `cekWinner` berisi kode untuk memerika apakah didalam susunan *board* sudah ada *player* yang menang.
+*Function* `checkWinner` berisi kode untuk memerika apakah didalam susunan *board* sudah ada *player* yang menang.
 
 ``` swift
 for position in winPosition {
     if board[position[0]] != "" && board[position[0]] == board[position[1]] && board[position[1]] == board[position[2]] {
-        if board[position[0]] == "x" {
-            disabledAllButton()
-            gameIsActive = false
-            playerName.text = "Player x win!"
-        } else {
-            disabledAllButton()
-            gameIsActive = false
-            playerName.text = "Player o win!"
-        }
+        gameIsActive = false
+        disabledAllButton()
+        playerName.text = "Player \(board[position[0]] == "x" ? "x" : "o") win!"
      }
 }
 ```
@@ -172,7 +161,7 @@ func disabledAllButton() {
 
 ##### Game is Draw
 
-Dan tambahkan juga baris kode ini kedalam *function* `cekWinner` untuk memeriksa apakah permainan berakhir seri.
+Dan tambahkan juga baris kode ini kedalam *function* `checkWinner` untuk memeriksa apakah permainan berakhir seri.
 
 ``` swift
 var totalPoint = ""
@@ -180,10 +169,8 @@ for i in 0...8 {
     totalPoint += board[i]
 }
 
-if totalPoint.count == 9 {
-    if gameIsActive {
-        playerName.text = "Game is draw!"
-    }
+if totalPoint.count == 9 && gameIsActive {
+    playerName.text = "Game is draw!"
 }
 ```
 #### Click Reset Handle
