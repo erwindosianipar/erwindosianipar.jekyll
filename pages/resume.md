@@ -6,6 +6,8 @@ permalink: /resume/
 
 Hi there, this is my resume pages, I had put as far as my career and experience in this resume file. If you need my resume you can download it by press the button download resume.
 
+If you'd like a more updated resume, please remind me to update this by contacting me via [contact page](https://erwindosianipar.me/contact) *last update: Sept 8, 2020*
+
 <a href="/resume/Erwindo Sianipar | Resume Print.pdf" class="uk-button uk-margin-bottom uk-button-primary">
     Download Resume
     <span class="uk-margin-left" data-feather="download">download</span>
