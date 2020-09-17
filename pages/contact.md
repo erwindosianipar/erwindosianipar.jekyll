@@ -6,11 +6,11 @@ permalink: /contact/
 
 Hi, if you want to contact me, just send me message from this form, I will receive your message via email and I will reach as soon as possible 📭😉
 
-<div class="uk-child-width-expand@m" uk-grid>
+<div class="uk-child-width-expand@m uk-margin-bottom" uk-grid>
     <div>
         <div class="uk-margin">
             <div class="uk-text-bold">Name</div>
-            <input class="uk-input" placeholder="name@domain.com" id="email">
+            <input class="uk-input" placeholder="name@domain.com" id="email" autocomplete="off">
         </div>
         <div class="uk-margin">
             <div class="uk-text-bold">Message</div>
@@ -24,9 +24,7 @@ Hi, if you want to contact me, just send me message from this form, I will recei
 
 #### <span class="pretty">Let’s make something great together!</span> 🤩
 
-Or you can find all my social media account at sidebar of this website. I will be happy to listen to you 😉
-
-If you have a something trouble to find me at internet, you can call my name three times btw hahahaha, feel free to contact me.
+Or you can find all my social media account at sidebar of this website. I will be happy to listen to you 😉 If you have a something trouble to find me at internet, you can call my name three times btw hahahaha, feel free to contact me.
 
 <script>
     function sendMessage() {

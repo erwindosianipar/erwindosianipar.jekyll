@@ -5,7 +5,7 @@ title: Bagaimana Saya Memanajemen Waktu Setiap Hari
 description: Tulisan ini adalah pengalaman pribadi dalam menjalani rutinitas
 image: https://miro.medium.com/max/10084/0*1x2SFFqjtkW9IzoF
 image-credit: Photo by Mikhail Vasilyev on Unsplash
-tags: life-story
+tags: lifestory
 toc: true
 ---
 
@@ -27,9 +27,9 @@ Oh iya, perlu diingat, hidup setiap orang kan berbeda-beda, ini hidupku, kita me
 
 Oke saya telaah dulu kondisi saya. Seorang programmer yang saat ini mengikuti bootcamp IT. Maka time management yang akan saya terapkan adalah
 
-1. Pagi, bangun pagi pukul 05, setelah bangun pagi biasanya saya membaca 2-5 artikel di Quora, lanjut mengecek email-email yang masuk, sesekali membuka Github siapa tau ada pull-request hehehe. Next mandi dan lanjut sarapan.
-2. Masuk kelas dan mulai belajar materi dari pukul 09 pagi sampai 12 siang, setelah itu makan siang, dan lanjut lagi belajar materi sampai pukul 06 sore, next makan malam.
-3. Biasanya setelah belajar materi seharian terus tidur satu sampai dengan dua jam, lanjut ngoding lagi (sekedar latihan ngoding atau sambil ngerjain tugas).
+- Pagi, bangun pagi pukul 05, setelah bangun pagi biasanya saya membaca 2-5 artikel di Quora, lanjut mengecek email-email yang masuk, sesekali membuka Github siapa tau ada pull-request hehehe. Next mandi dan lanjut sarapan.
+- Masuk kelas dan mulai belajar materi dari pukul 09 pagi sampai 12 siang, setelah itu makan siang, dan lanjut lagi belajar materi sampai pukul 06 sore, next makan malam.
+- Biasanya setelah belajar materi seharian terus tidur satu sampai dengan dua jam, lanjut ngoding lagi (sekedar latihan ngoding atau sambil ngerjain tugas).
 
 Waktu santai, biasanya saya lakukan setelah makan malam, biasanya saya ngopi ganteng sambil denger musik sambil menikmati senja (absolutely indie hahaha).
 

@@ -7,7 +7,7 @@ layout: default
 
 <h1 class="uk-margin-small-bottom uk-text-bold">{{ page.title | escape }}</h1>
 <h2 class="uk-margin-remove-top uk-text-muted fs-20">{{ page.description | escape }}</h2>
-{{ page.date | date: "%B %d, %Y" }} · {% include minread.html content=content %} · <a href="/blog/tag/{{ page.tags }}"><code class="highligher-rouge uk-text-primary">📒 #{{ page.tags }}</code></a>
+{{ page.date | date: "%B %d, %Y" }} · {% include minread.html content=content %} · <a href="/blog/tag/{{ page.tags }}"><b>#{{ page.tags }}</b></a>
 
 <hr class="uk-divider-icon">
 
