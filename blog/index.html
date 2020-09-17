@@ -14,11 +14,10 @@ title: Blog
     {% endif %}
     <li>
         <div class="uk-text-muted">
-            <span class="uk-hidden@l"><a href="/blog/tag/{{ post.tags }}"><code class="highligher-rouge uk-text-primary">#{{ post.tags }}</code></a> · </span>{{ post.date | date: "%B %d" }} · {% include minread.html content=post.content %}
+            {{ post.date | date: "%B %d" }} · {% include minread.html content=post.content %} · <a href="/blog/tag/{{ post.tags }}">{{ post.tags }}</a>
         </div>
         <h4 class="uk-margin-remove">
-            <a href="/blog/tag/{{ post.tags }}" class="uk-visible@l"><code class="highligher-rouge uk-text-primary">#{{ post.tags }}</code></a>
-            <a href="{{ post.url }}" class="uk-text-emphasis">
+            <a href="{{ post.url }}">
                 {{ post.title }}
             </a>
         </h4>
