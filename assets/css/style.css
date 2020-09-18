@@ -239,6 +239,10 @@ em {
     color: #4183c4;
 }
 
+b, strong {
+    font-weight: bold;
+}
+
 * pre {
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     background: #f7f7f7;
