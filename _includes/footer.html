@@ -9,17 +9,19 @@
     }
 
     $(document).ready(function() {
+        $("#confirmed").html(number(0));
+        $("#recovered").html(number(0));
+        $("#deaths").html(number(0));
+        $("#lastUpdate").html("-");
         $.ajax({
-            url: "https://covid19.mathdro.id/api/countries/indonesia", success: function(result) {
-                $("#positif").html(number(result.confirmed.value));
-                $("#sembuh").html(number(result.recovered.value));
-                $("#meninggal").html(number(result.deaths.value));
+            url: "https://covid19.mathdro.id/api/countries/indonesia",
+            success: function(result) {
+                $("#confirmed").html(number(result.confirmed.value));
+                $("#recovered").html(number(result.recovered.value));
+                $("#deaths").html(number(result.deaths.value));
+                let date = new Date(result.lastUpdate);
+                $("#lastUpdate").html(date.getHours()+":"+date.getMinutes()+" WIB");
             }
         })
     });
-
-    var images = document.getElementsByTagName("img");
-    for(i = 0; i < images.length; i++) {
-        images[i].setAttribute("data-action", "zoom")
-    }
 </script>

@@ -1,12 +1,7 @@
 <nav class="uk-padding-small uk-box-shadow-small uk-hidden@l" uk-navbar>
     <div class="uk-float-left">
-        <a href="#sidenav-open" class="menu" onclick="toggleSidenav()"><span uk-icon="menu"></span></a>
-        <a href="/" class="menu uk-margin-left">
-            <img class="uk-border-circle nav-logo" src="/assets/images/profile-32x32.jpg" alt="{{ site.name }}">
-        </a>
-        <span class="uk-icon-button">
-            <span id="display-mode-toggle" onclick="toggleDisplayMode()" uk-icon="star"></span>
-        </span>
+        <a href="#sidenav-open" class="menu uk-icon-button" onclick="toggleSidenav()"><span uk-icon="menu"></span></a>
+        <span id="display-mode-toggle" class="uk-icon-button uk-margin-left" onclick="toggleDisplayMode()" uk-icon="star"></span>
     </div>
 </nav>
 <div class="uk-padding-small"></div>

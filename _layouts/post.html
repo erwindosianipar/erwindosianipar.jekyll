@@ -18,6 +18,13 @@ layout: default
 {% endif %}
 {% endcomment %}
 
+<a href="#modal" uk-toggle><div class="btn-toc"><span uk-icon="list"></span></div></a>
+<div id="modal" class="uk-flex-top" uk-modal>
+    <div class="uk-card uk-card-body uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <ul id="toc" class="uk-list uk-list-square"></ul>
+    </div>
+</div>
 <div class="blog-post">
     {{ content }}
 </div>
@@ -31,6 +38,10 @@ layout: default
 {% endif %}
 
 <script>
+    var images = document.getElementsByTagName("img");
+    for(i = 0; i < images.length; i++) {
+        images[i].setAttribute("data-action", "zoom");
+    }
     var bar_bg = document.getElementById("scrollbar-bg");
     var body = document.body;
     var html = document.documentElement;
