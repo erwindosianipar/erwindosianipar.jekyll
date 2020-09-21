@@ -16,7 +16,7 @@ At three months of the academy, I learn about how to be a Fullstack Developer wh
 Here are some types of programming languages that I deepened while in academy
 [Golang](https://golang.org/) including unit testing, [Kotlin](https://kotlinlang.org/), [VueJS](https://vuejs.org/), [Dart](https://dart.dev/), [Flutter](https://flutter.dev/), and [Swift](https://developer.apple.com/swift/).
 
-## Just now
+### Just now
 
 I'm working as a **[iOS Developer](https://en.wikipedia.org/wiki/IOS)** since March 2020 in one of Indonesia's leading logistics companies <span style="color: #d11f40;">**[Lion Parcel](http://lionparcel.com/)**</span> a subsidiary of **[Lion Group](http://www.lionair.co.id/)**. Operating in over 180 cities, with over 80,000 routes, Lion Parcel supports top name brands like [Ikea](https://www.ikea.co.id/in), [Tokopedia](https://www.tokopedia.com/), [Zalora](https://www.zalora.co.id/) and [Bukalapak](https://www.bukalapak.com/) to ship more than 50,000 packages every day. Innovation and forward thinking have established Lion Parcel as an integral part of Indonesia's eCommerce market.
 
@@ -25,3 +25,25 @@ As far as my career at Lion Parcel, my responsibility is to collaborate with the
 Design and implement technical solutions to problems, Develop expertise in engineering stacks, programming languages, and technical concepts. Adopt best practices and processes for an engineering team. Mentor other engineers through code reviews and design critiques.
 
 I love to share simple things in this website and many times I have change this website, this is some **[Changelog](/changelog/)** as far as I create this website.
+
+### About License
+
+About the license of this website is refering to **[WTFPL](https://en.wikipedia.org/wiki/WTFPL)** or **DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE**. It's sound harsh? Right and actually all the post on this website **are free to share**, modify (including adding or subtracting) even to be commercialized (well count for sustenance). Even though I give it freedom, **I really appreciate** if the link from this website or article is included (it's also okay).
+
+License Details:
+
+```bash
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+Version 2, December 2004
+
+Copyright (C) 2020 Erwindo Sianipar <erwindosianipar@gmail.com>
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+0. You just DO WHAT THE FUCK YOU WANT TO.
+```

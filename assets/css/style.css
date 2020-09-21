@@ -58,16 +58,6 @@ blockquote {
     height: 100%
 }
 
-.bar-wrap {
-    padding: 1rem
-}
-
-.nav-logo {
-    height: 2rem;
-    width: 2rem;
-    margin-right: .4rem
-}
-
 .menu {
     opacity: 0;
     margin-left: 40px
@@ -228,7 +218,9 @@ h6:hover .deeplink {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #e16036
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #f09433 0%, #e6683c 25%, #dc2743 50%,#cc2366 75%,#bc1888 100%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
 
 em {
@@ -253,4 +245,33 @@ b, strong {
 
 .fs-1rem {
     font-size: 1rem;
+}
+
+.uk-nav>li>a{
+    margin-left: 15px;
+}
+
+.uk-nav>li:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.uk-nav>li.active{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-toc {
+	position: fixed;
+    z-index: 999;
+    width: 30px;
+	right: 0;
+	bottom: 0;
+	float: right;
+	background: #05264c;
+	margin-right: 15px;
+	margin-bottom: 15px;
+    border-radius: 100%;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+	box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .3)
 }

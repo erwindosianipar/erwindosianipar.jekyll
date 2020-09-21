@@ -45,7 +45,7 @@ function updateToDarkMode() {
 
     let toggleSwitch = document.getElementById("display-mode-toggle")
     if (toggleSwitch) {
-        toggleSwitch.setAttribute("uk-icon", "bolt")
+        toggleSwitch.innerHTML = "Light mode"
     }
 
     for (let e of document.getElementsByClassName('uk-card')) {
@@ -66,7 +66,7 @@ function updateToLightMode() {
 
     let toggleSwitch = document.getElementById("display-mode-toggle")
     if (toggleSwitch) {
-        toggleSwitch.setAttribute("uk-icon", "star")
+        toggleSwitch.innerHTML = "Dark mode"
     }
 
     for (let e of document.getElementsByClassName('uk-card')) {
