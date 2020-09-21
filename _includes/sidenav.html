@@ -13,14 +13,15 @@
         <li {% if page.url == "/about/" %} class="active" {% endif %}><a href="/about"><span class="uk-margin-right" uk-icon="info"></span>About</a></li>
         <li {% if page.url == "/contact/" %} class="active" {% endif %}><a href="/contact"><span class="uk-margin-right" uk-icon="user"></span>Contact</a></li>
         <li {% if page.url == "/resume/" %} class="active" {% endif %}><a href="/resume"><span class="uk-margin-right" uk-icon="file-pdf"></span>Resume</a></li>
-        <li {% if page.url == "/project/" %} class="active" {% endif %}><a href="/project"><span class="uk-margin-right" uk-icon="folder"></span>Project</a></li>
+        <li {% if page.url == "/projects/" %} class="active" {% endif %}><a href="/projects"><span class="uk-margin-right" uk-icon="folder"></span>Projects</a></li>
         <li {% if page.url == "/blog/" %} class="active" {% endif %}><a href="/blog"><span class="uk-margin-right" uk-icon="file-edit"></span>Blog</a></li>
+        <li {% if page.url == "/awards/" %} class="active" {% endif %}><a href="/awards"><span class="uk-margin-right" uk-icon="star"></span>Awards</a></li>
+        <li {% if page.url == "/talks/" %} class="active" {% endif %}><a href="/talks"><span class="uk-margin-right" uk-icon="microphone"></span>Talks</a></li>
         <li><a href="//erwindosianipar.github.io/"><span class="uk-margin-right" uk-icon="file-text"></span>Notes</a></li>
-        <li {% if page.url == "/award/" %} class="active" {% endif %}><a href="/award"><span class="uk-margin-right" uk-icon="star"></span>Award</a></li>
         <li><a href="/feed.xml"><span class="uk-margin-right" uk-icon="rss"></span>Feed</a></li>
     </ul>
     <div class="uk-padding-small uk-text-uppercase">Other Link</div>
-    <ul class="uk-nav-default uk-margin-medium-bottom" uk-nav="">
+    <ul class="uk-nav-default uk-margin-small-bottom" uk-nav="">
         <li>
             <a href="https://www.facebook.com/{{ site.username_alt }}">
                 <span class="uk-margin-right" uk-icon="facebook"></span> Facebook
@@ -62,4 +63,7 @@
             </a>
         </li>
     </ul>
+    <div class="uk-margin-medium-bottom">
+        <a href="#"><span onclick="toggleDisplayMode()" id="display-mode-toggle" class="uk-padding-small">Dark mode</span></a>
+    </div>
 </div>

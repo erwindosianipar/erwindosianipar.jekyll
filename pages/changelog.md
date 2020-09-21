@@ -4,6 +4,23 @@ title: Changelog
 permalink: /changelog/
 ---
 
+## 2020/09/21
+
+### Features
+
+- 🎤 Feature to see speaker list in talks page
+- 🛠 Feature marker menu on visited page
+- 🛠 Feature to see last update in COVID-19 alert
+- 🛠 Feature to see table of content in blog post
+- 📄 Make the license on website with WTFPL License
+
+### Improve
+
+- 📄 Change url to plural (awards and projects)
+- 📄 Add list of project in projects page
+- 🐞 Fix spacing on header and sidebar menu
+- 🧑 Fix profile picture image from Github profile
+
 ## 2020/09/17
 
 ### Features
