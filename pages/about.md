@@ -24,7 +24,7 @@ As far as my career at Lion Parcel, my responsibility is to collaborate with the
 
 Design and implement technical solutions to problems, Develop expertise in engineering stacks, programming languages, and technical concepts. Adopt best practices and processes for an engineering team. Mentor other engineers through code reviews and design critiques.
 
-I love to share simple things in this website and many times I have change this website, this is some **[Changelog](/changelog/)** as far as I create this website.
+I love to share simple things in this website and many times I have change this website, this is some **[Changelog](/changelog?ref=about)** as far as I create this website.
 
 ### About License
 

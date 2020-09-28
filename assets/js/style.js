@@ -87,3 +87,27 @@ function updateToLightMode() {
         updateToDarkMode()
     }
 })()
+
+const queryString = window.location.search;
+const locationString = window.location.pathname;
+const urlParams = new URLSearchParams(queryString);
+const ref = urlParams.get("ref");
+    
+console.log(ref);
+if (ref != null) {
+    $.ajax({
+        url: "https://formspree.io/xwkwplbk",
+        method: "POST",
+        data : {
+            email: "noreply@erwindosianipar.me",
+            message: "You have new visitor on " + locationString + " from ref: " + ref
+        },
+        dataType: "json",
+        success: function(response) {
+            console.log(true);
+        },
+        error: function(error) {
+            console.log(false);
+        }
+    })
+}

@@ -4,6 +4,16 @@ title: Changelog
 permalink: /changelog/
 ---
 
+## 2020/09/28
+
+### Feature
+
+- 🛠 Feature visitor tracker formspree on all page
+
+### Improve
+
+- 🛠 Change dark mode switcher font size
+
 ## 2020/09/21
 
 ### Features

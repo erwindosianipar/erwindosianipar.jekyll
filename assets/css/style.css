@@ -92,22 +92,22 @@ blockquote {
     #sidenav {
         height: 100%;
         margin-left: -260px;
-        transition: .5s;
+        transition: .3s;
         height: 100%
     }
     #content {
         margin-left: 0;
-        transition: .5s
+        transition: .3s
     }
     #sidenav.sidenav-open {
         opacity: 100;
         margin-left: 0;
-        transition: .5s;
+        transition: .3s;
         filter: drop-shadow(6px 0 6px rgba(0, 0, 0, 0.2));
     }
     #content.sidenav-open {
         margin-left: 0;
-        transition: .5s;
+        transition: .3s;
     }
 }
 
@@ -274,4 +274,9 @@ b, strong {
     color: #fff;
     text-align: center;
 	box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .3)
+}
+
+.switcher {
+    color: rgba(255, 255, 255, .5);
+    font-size: .875rem;
 }
