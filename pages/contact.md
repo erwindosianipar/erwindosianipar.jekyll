@@ -44,6 +44,11 @@ Or you can find all my social media account at sidebar of this website. I will b
             return re.test(email);
         }
 
+        function showDialog(modal, button) {
+            UIkit.modal.dialog(modal);
+            document.getElementById("button").innerHTML = button
+        }
+
         $.ajax({
             url: "https://formspree.io/maypjpvv",
             method: "POST",
@@ -53,12 +58,10 @@ Or you can find all my social media account at sidebar of this website. I will b
             },
             dataType: "json",
             success: function(response) {
-                UIkit.modal.dialog("<p class=\"uk-modal-body\">Your message has been sent, thank you for contact me 🥰</p>");
-                document.getElementById("button").innerHTML = "Sent <span uk-icon=\"check\"></span>";
+                showDialog("<p class=\"uk-modal-body\">Your message has been sent, thank you for contact me 🥰</p>", "Sent <span uk-icon=\"check\"></span>")
             },
             error: function(error) {
-                UIkit.modal.dialog("<p class=\"uk-modal-body\">Oops. Something went wrong. Please try again later 🧐</p>");
-                document.getElementById("button").innerHTML = "Fail <span uk-icon=\"close\"></span>";
+                showDialog("<p class=\"uk-modal-body\">Oops. Something went wrong. Please try again later 🧐</p>", "Fail <span uk-icon=\"close\"></span>")
             }
         })
     }
