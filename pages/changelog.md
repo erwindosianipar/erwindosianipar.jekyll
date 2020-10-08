@@ -4,6 +4,10 @@ title: Changelog
 permalink: /changelog/
 ---
 
+## 2020/10/08
+
+- 🛠 Change indicator value tracker visitor
+
 ## 2020/09/28
 
 ### Feature
