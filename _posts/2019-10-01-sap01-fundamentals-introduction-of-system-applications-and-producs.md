@@ -6,7 +6,6 @@ description: Hello all! Today I'll try to introduce the Fundamentals of System A
 image: https://erwindosianipar.herokuapp.com/assets/images/article/large/19_1569947294_1733240520339289601_20191001112814_n.PNG
 image-credit: Photo by Google Image
 tags: programming
-toc: true
 ---
 
 Fundamentals Introduction of System Applications and Producs. In my college we have study this sytem for increase of how to make a complete system when we build a one of information system, so we must know concept of the system information before we build it :)

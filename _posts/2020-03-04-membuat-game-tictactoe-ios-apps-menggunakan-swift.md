@@ -6,7 +6,6 @@ description: Tutorial sederhana membuat aplikasi game pada perangkat iOS
 image: https://miro.medium.com/max/11520/0*Lhgnm_ZYnh-Rdawy
 image-credit: Photo by 42 North on Unsplash
 tags: programming
-toc: true
 ---
 
 Ini adalah salah satu aplikasi yang saya ciptakan saat mengikuti *code challenge* membuat aplikasi game sederhana dengan bahasa pemrograman Swift.

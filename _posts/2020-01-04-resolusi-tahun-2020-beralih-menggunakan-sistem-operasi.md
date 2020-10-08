@@ -6,7 +6,6 @@ description: Resolusi kecil untuk mulai menjalani tahun yang baru
 image: https://miro.medium.com/max/11910/0*5aPYRAYDAP3hVo4d
 image-credit: Photo by Marc-Olivier Jodoin on Unsplash
 tags: lifestory
-toc: true
 ---
 
 ### Pindah Sistem Operasi

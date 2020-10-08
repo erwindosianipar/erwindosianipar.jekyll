@@ -3,8 +3,9 @@ layout: post
 permalink: /blog/memperbaiki-deployment-target-warning-cocoapods-xcode-12
 title: Memperbaiki Deployment Target Warning CocoaPods Xcode 12
 description: "The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 9.0 to 14.0.99."
+image: https://images.unsplash.com/photo-1463836930182-e3214ec86167?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+image-credit: Christoffer Engström on Unsplash
 tags: programming
-toc: true
 ---
 
 Berdasarkan XCode [Release notes](https://developer.apple.com/documentation/xcode-release-notes/xcode-12_2-beta-release-notes) kali ini mengatakan.

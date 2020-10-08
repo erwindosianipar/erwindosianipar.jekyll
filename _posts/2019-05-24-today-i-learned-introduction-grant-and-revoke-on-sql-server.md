@@ -6,7 +6,6 @@ description: Data Control Language dalam SQL Server Management Studio
 image: https://erwindosianipar.herokuapp.com/assets/images/article/large/19_1558660180_14406544632111087457_20190524080940_n.jpeg
 image-credit: Photo by Google Image
 tags: programming
-toc: true
 ---
 
 Hallo semuanya apa kabar? Saya harap kita semua dalam keadaan sehat dan tidak kekurangan sesuatu apapun, berhubung dengan adanya kesibukan saya pada akhir-akhir ini menjadikan blog ini agak kurang update hehe.
