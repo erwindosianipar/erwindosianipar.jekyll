@@ -18,14 +18,14 @@ layout: compress
     <link rel="icon" sizes="64x64" href="/favicon.ico">
     <meta name="google-site-verification" content="9kBK_rp1o3t8RZDZMmRUv5nvPrWLIhYc_KehM1nzCg8" />
     {% if site.tags != "" %}
-        {% include collecttags.html %}
+    {% include collecttags.html %}
     {% endif %}
 </head>
 <body>
+    {% include navbar.html %}
     {% include sidenav.html %}
-
     <div id="content">
-        <div class="uk-card uk-alert-primary uk-margin-remove-bottom uk-text-emphasis" uk-alert>
+        <div class="uk-card uk-alert-warning uk-margin-remove-bottom uk-text-emphasis" uk-alert>
             <a class="uk-alert-close" uk-close></a>
             <div class="uk-card-header uk-padding-remove">
                 <div class="uk-grid-small" uk-grid>
@@ -48,14 +48,11 @@ layout: compress
                 </div>
             </div>
         </div>
-
-        {% include navbar.html %}
-
+        <div class="uk-padding-small"></div>
         <div class="main-content uk-container page-wrapper">
             {{ content }}
             {% include copyright.html %}
         </div>
-
     </div>
 
     {% include footer.html %}

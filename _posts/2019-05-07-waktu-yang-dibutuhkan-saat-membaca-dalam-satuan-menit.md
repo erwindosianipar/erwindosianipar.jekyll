@@ -6,7 +6,6 @@ description: Kita dapat menghitung lama dari suatu tulisan atau artikel untuk di
 image: https://erwindosianipar.herokuapp.com/assets/images/article/large/19_1557301514_3480775811145542169_20190508024514_n.jpg
 image-credit: Photo by Google Image
 tags: programming
-toc: true
 ---
 
 Jika anda melihat gambar keterangan artikel ini, anda akan mengerti apa yang saya maksudkan. Didalam beberapa postingan atau suatu artikel seringkali telihat **x min read** artinya adalah waktu estimasi yang dibutuhkan dalam membaca sampai dengan selesai.

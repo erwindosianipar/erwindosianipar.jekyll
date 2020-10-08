@@ -11,14 +11,10 @@ layout: default
 
 <hr class="uk-divider-icon">
 
-{% comment %}
-{% if page.image %}
 <img src="{{ page.image }}" data-action="zoom">
 <div class="uk-text-center uk-text-small uk-text-muted uk-margin-small">{{ page.image-credit }}</div>
-{% endif %}
-{% endcomment %}
 
-<a href="#modal" uk-toggle><div class="btn-toc"><span uk-icon="list"></span></div></a>
+<div id="button"></div>
 <div id="modal" class="uk-flex-top" uk-modal>
     <div class="uk-card uk-card-body uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
         <button class="uk-modal-close-default" type="button" uk-close></button>
@@ -39,7 +35,7 @@ layout: default
 
 <script>
     var images = document.getElementsByTagName("img");
-    for(i = 0; i < images.length; i++) {
+    for (i = 0; i < images.length; i++) {
         images[i].setAttribute("data-action", "zoom");
     }
     var bar_bg = document.getElementById("scrollbar-bg");
@@ -60,5 +56,20 @@ layout: default
         var bw  = ((pos / (dh - wh)) * 100);
 
         bar.style.width = bw + "%";
+    };
+
+    var head = document.querySelectorAll("h3, h4, h5, h6");
+    for (i = 0; i < head.length; i++) {
+        head[i].classList.add("heading");
+    }
+
+    var toc = document.getElementsByClassName("heading");
+    for (i = 0; i < toc.length; i++) {
+        tocItem = '<a href='+'#'+toc[i].getAttribute("id")+'><li>'+ toc[i].innerHTML +'</li></a>';
+        document.getElementById("toc").innerHTML += tocItem;
+    }
+
+    if (document.getElementsByClassName("heading").length != 0) {
+        document.getElementById("button").innerHTML = '<a href="#modal" uk-toggle><div class="btn-toc"><span uk-icon="list"></span></div></a>'
     }
 </script>

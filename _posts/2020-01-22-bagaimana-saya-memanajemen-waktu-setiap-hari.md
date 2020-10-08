@@ -6,7 +6,6 @@ description: Tulisan ini adalah pengalaman pribadi dalam menjalani rutinitas
 image: https://miro.medium.com/max/10084/0*1x2SFFqjtkW9IzoF
 image-credit: Photo by Mikhail Vasilyev on Unsplash
 tags: lifestory
-toc: true
 ---
 
 ### Kenapa kita membutuhkan time management?

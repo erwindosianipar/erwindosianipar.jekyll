@@ -6,7 +6,6 @@ description: Bahasa pemrograman baru yang sederhana, jelas, dan mudah dipahami. 
 image: https://erwindosianipar.herokuapp.com/assets/images/article/large/19_1556949225_1974918229171996484_20190504125345_n.jpeg
 image-credit: Photo by Google Image
 tags: programming
-toc: true
 ---
 
 **[Microsoft](https://www.microsoft.com/)** telah memperkenalkan bahasa pemrograman baru dengan nama Bosque (Bosque programming language). Bosque adalah bahasa pemrograman open-source dibawah lisensi MIT.
