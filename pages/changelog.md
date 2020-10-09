@@ -6,6 +6,12 @@ permalink: /changelog/
 
 This is a changelog pages of this website. I made this page to write logging as far as I create feature, build and improve this website.
 
+## 2020/10/10
+
+### Improve
+
+- <span class="uk-margin-small-right">📄</span> Sticky table of content on blog post
+
 ## 2020/10/08
 
 ---
