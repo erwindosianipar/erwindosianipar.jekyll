@@ -14,23 +14,23 @@ layout: default
 <img src="{{ page.image }}" data-action="zoom">
 <div class="uk-text-center uk-text-small uk-text-muted uk-margin-small">{{ page.image-credit }}</div>
 
-<div id="button"></div>
-<div id="modal" class="uk-flex-top" uk-modal>
-    <div class="uk-card uk-card-body uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <ul id="toc" class="uk-list uk-list-square"></ul>
-    </div>
-</div>
 <div class="blog-post">
+    <div class="uk-visible@l uk-float-right" style="z-index: 980;" uk-sticky="bottom: #offset">
+        <div class="dropdown">
+            <button onclick="dropdown()" class="dropdown-button">On this page <span uk-icon="chevron-down"></span></button>
+            <div id="dropdown" class="dropdown-list">
+                <ul id="toc" class="uk-list uk-list-square uk-margin-remove"></ul>
+            </div>
+        </div>
+    </div>
+
     {{ content }}
 </div>
 
 {% include archive.html %}
 
-{% include anchor.html %}
-
 {% if site.disqus.shortname %}
-  {% include disqus.html %}
+    {% include disqus.html %}
 {% endif %}
 
 <script>
@@ -38,22 +38,22 @@ layout: default
     for (i = 0; i < images.length; i++) {
         images[i].setAttribute("data-action", "zoom");
     }
-    var bar_bg = document.getElementById("scrollbar-bg");
+    var barBg = document.getElementById("scrollbar-bg");
     var body = document.body;
     var html = document.documentElement;
 
-    bar_bg.style.minWidth = document.width + "px";
+    barBg.style.minWidth = document.width + "px";
 
-    document.getElementsByTagName("body")[0].onresize = function() {
-        bar_bg.style.minWidth = document.width + "px";
+    document.getElementsByTagName("body")[0].onresize = function () {
+        barBg.style.minWidth = document.width + "px";
     };
 
-    window.onscroll = function() {
+    window.onscroll = function () {
         var bar = document.getElementById("scrollbar");
-        var dh  = Math.max(body.scrollHeight, body.offsetHeight,html.clientHeight, html.scrollHeight, html.offsetHeight);
-        var wh  = window.innerHeight;
+        var dh = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+        var wh = window.innerHeight;
         var pos = pageYOffset || (document.documentElement.clientHeight ? document.documentElement.scrollTop : document.body.scrollTop);
-        var bw  = ((pos / (dh - wh)) * 100);
+        var bw = ((pos / (dh - wh)) * 100);
 
         bar.style.width = bw + "%";
     };
@@ -65,11 +65,13 @@ layout: default
 
     var toc = document.getElementsByClassName("heading");
     for (i = 0; i < toc.length; i++) {
-        tocItem = '<a href='+'#'+toc[i].getAttribute("id")+'><li>'+ toc[i].innerHTML +'</li></a>';
+        tocItem = '<li class="uk-margin-top"><a href=' + '#' + toc[i].getAttribute("id") + ' class="item">' + toc[i].innerHTML + '</a></li>';
         document.getElementById("toc").innerHTML += tocItem;
     }
 
-    if (document.getElementsByClassName("heading").length != 0) {
-        document.getElementById("button").innerHTML = '<a href="#modal" uk-toggle><div class="btn-toc"><span uk-icon="list"></span></div></a>'
+    function dropdown() {
+        document.getElementById("dropdown").classList.toggle("show");
     }
 </script>
+
+{% include anchor.html %}
