@@ -1,12 +1,19 @@
 <div class="uk-light uk-background-custom" id="sidenav">
-    <div class="uk-padding-small uk-margin-small-top">
-        <img class="uk-border-circle" src="https://github.com/erwindosianipar.png?size=50" alt="{{ site.name }}"
-            width="36">
-        <span class="uk-text-bold uk-margin-small-left">{{ site.title }}</span>
-        <a href="#sidenav-close" class="uk-float-right uk-hidden@l" onclick="toggleSidenav()">
-            <button type="button" class="uk-icon-button uk-margin-remove" uk-close></button>
-        </a>
-    </div>
+    <nav class="uk-margin uk-margin-remove-bottom uk-background-custom" uk-navbar>
+        <div class="uk-navbar-left">
+            <div class="uk-navbar-item">
+                <img class="uk-border-circle" src="https://github.com/erwindosianipar.png?size=100" alt="{{ site.name }}" width="40">
+                <span class="uk-text-bold nav-title">{{ site.title }}</span>
+            </div>
+        </div>
+        <div class="uk-navbar-right">
+            <div class="uk-navbar-item">
+                <a href="#sidenav-close" class="uk-hidden@l" onclick="toggleSidenav()">
+                    <button type="button" class="uk-icon-button uk-margin-remove" uk-close></button>
+                </a>
+            </div>
+        </div>
+    </nav>
     <div class="uk-padding-small uk-text-uppercase">Site Map</div>
     <ul class="uk-nav-default" uk-nav="">
         <li {% if page.url == "/" %} class="active" {% endif %}><a href="/?ref=nav"><span class="uk-margin-right" uk-icon="home"></span>Home</a></li>
