@@ -12,7 +12,11 @@ If you'd like a more updated resume, please remind me to update this by contacti
     Download Resume
     <span class="uk-margin-left" uk-icon="download"></span>
 </a>
-<br>
+
+<div class="uk-alert-primary" uk-alert>
+<span uk-icon="info" class="uk-margin-small-right"></span> Looking for long CV? <a href="/resume/Curriculum Vitae - Erwindo Sianipar.pdf" class="uk-text-bold">Download CV</a>
+</div>
+
 If you want to use this resume design, you can **[click this](/resume/resume?ref=resume)**, it will direct you to see the web version.
 
 <object width="100%" height="100%" type="application/pdf" style="height:100vh" data="/resume/Erwindo Sianipar | Resume Print.pdf">

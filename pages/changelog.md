@@ -6,6 +6,12 @@ permalink: /changelog/
 
 This is a changelog pages of this website. I made this page to write logging as far as I create feature, build and improve this website.
 
+## 2020/10/17
+
+### Feature
+
+- <span class="uk-margin-small-right">📄</span> Add curriculum vitae in resume page
+
 ## 2020/10/15
 
 ### Bug fixes
