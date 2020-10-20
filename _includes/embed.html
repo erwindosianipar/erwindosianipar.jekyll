@@ -1,0 +1,10 @@
+<div class="uk-alert-default uk-background-default uk-padding-remove" uk-alert>
+    <div class="uk-clearfix">
+        {% if page.previous.url %}
+        <a class="uk-float-left" href="{{page.previous.url}}?ref=post/prev"><span uk-icon="chevron-left"></span> Prev</a>
+        {% endif %}
+        {% if page.next.url %}
+        <a class="uk-float-right" href="{{page.next.url}}?ref=post/next">Next <span uk-icon="chevron-right"></span></a>
+        {% endif %}
+    </div>
+</div>

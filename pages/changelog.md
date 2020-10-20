@@ -6,6 +6,16 @@ permalink: /changelog/
 
 This is a changelog pages of this website. I made this page to write logging as far as I create feature, build and improve this website.
 
+## 2020/10/20
+
+### Feature
+
+- <span class="uk-margin-small-right">🔗</span> Add link to previous and next post in blog post
+
+### Improve
+
+- <span class="uk-margin-small-right">📄</span> Add link to website and add portfolio section in cv
+
 ## 2020/10/17
 
 ### Feature
