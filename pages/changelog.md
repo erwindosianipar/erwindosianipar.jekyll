@@ -6,6 +6,12 @@ permalink: /changelog/
 
 This is a changelog pages of this website. I made this page to write logging as far as I create feature, build and improve this website.
 
+## 2020/10/27
+
+### Feature
+
+- <span class="uk-margin-small-right">⏱</span> Add countdown timer since born day to now
+
 ## 2020/10/20
 
 ### Feature
