@@ -6,6 +6,13 @@ permalink: /projects/
 
 <div class="uk-card uk-card-default uk-card-body">
     <div class="uk-card-badge uk-label">OS</div>
+    <h3 class="uk-card-title">API Alkitab Indonesia</h3>
+    API Alkitab Indonesia - Backend Alkitab bahasa Indonesia based on sabda.org.
+    <a href="https://github.com/erwindosianipar/api-alkitab">erwindosianipar/api-alkitab</a>
+</div>
+
+<div class="uk-card uk-card-default uk-card-body">
+    <div class="uk-card-badge uk-label">OS</div>
     <h3 class="uk-card-title">Sisfoka / Sismik</h3>
     Sistem Informasi Sekolah dan Portal Akademik untuk Sekolah Menengah Kejuruan.
     <a href="https://github.com/erwindosianipar/ci-sisfoka">erwindosianipar/ci-sisfoka</a>
