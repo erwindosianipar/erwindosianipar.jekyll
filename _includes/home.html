@@ -7,7 +7,7 @@
 </blockquote>
 <div id="announcement-banner" class="uk-card uk-card-default uk-card-body uk-alert-primary" uk-alert>
     <p class="uk-padding-remove-top uk-margin-remove-top">
-        Hello, how are you? What happen today? Wish you have the best right now. It's me, {{ site.name }}. A young man and energic but just a mere human, who still pursuing my dreams.
+        Hello, how are you? What happen today? Wish you have the best right now. It's me, {{ site.name }} and I was born <span id="age" class="uk-background-primary uk-badge">0000</span> seconds ago. A young man and energic but just a mere human, who still pursuing my dreams.
         Let us know more, and be friend for sake of humanity and freedom 😁🎉
     </p>
     <p class="uk-padding-remove-top uk-margin-remove-top">
@@ -42,3 +42,38 @@
         </div>
     </li>
 </ul>
+
+<script type="text/javascript">
+	var $ = function(selector) {
+		return document.querySelector(selector);
+	};
+    
+	function format_integer_part(val) {
+		var counter = 0;
+		var formatted = '';
+		var val = val.toString();
+
+		for(var i = val.length - 1; i >= 0; i--) {
+			separator = (counter > 0 && counter % 3 == 0) ? ',' : '';
+			formatted = val[i] + separator + formatted;
+			counter++;
+		}
+
+		return formatted;
+	}
+
+	function update_age() {
+		var age = document.getElementById("age");
+		var now = new Date();
+		var born = new Date('June 03, 2000');
+		now = now.getTime();
+		born = born.getTime();
+		var diff = Math.round( (now - born) / 1000 );
+		year = Math.floor(diff / (60 * 60 * 24 * 365));
+
+        age.setAttribute('title', year + ' years ago');
+		age.innerHTML = (format_integer_part(diff));
+	}
+	update_age();
+	setInterval("update_age()", 1000);
+</script>
