@@ -11,7 +11,7 @@ permalink: /projects/
     <a href="https://github.com/erwindosianipar/api-alkitab">erwindosianipar/api-alkitab</a>
 </div>
 
-<div class="uk-card uk-card-default uk-card-body">
+<div class="uk-card uk-card-default uk-card-body uk-margin">
     <div class="uk-card-badge uk-label">OS</div>
     <h3 class="uk-card-title">Sisfoka / Sismik</h3>
     Sistem Informasi Sekolah dan Portal Akademik untuk Sekolah Menengah Kejuruan.
